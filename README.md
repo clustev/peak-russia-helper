@@ -30,13 +30,13 @@
 Для официального архива `zapret-discord-youtube-1.10.2.zip` ожидается:
 
 ```text
-5EAAC9FB2E4B1ABD693487452A3FF3F4DFE9578A45F9DDDDF A4BC1F5A6BB62D5
+5EAAC9FB2E4B1ABD693487452A3FF3F4DFE9578A45F9DDD DFA4BC1F5A6BB62D5
 ```
 
-В скрипте пробел удаляется перед сравнением, итоговая строка SHA256:
+В скрипте этот же SHA256 хранится с техническим пробелом и перед сравнением пробел удаляется. Фактическое значение без пробелов:
 
 ```text
-5EAAC9FB2E4B1ABD693487452A3FF3F4DFE9578A45F9DDDDF A4BC1F5A6BB62D5
+5EAAC9FB2E4B1ABD693487452A3FF3F4DFE9578A45F9DDDDFA4BC1F5A6BB62D5
 ```
 
 ## Windows Defender
